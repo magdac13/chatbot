@@ -1,0 +1,34 @@
+{"intents":  [
+  {"tag": "greetings",
+    "patterns": ["hello", "hi", "good day", "Greetings", "what's up?", "how's it going?"],
+    "responses": ["Hello!", "Hi!", "Good day!", "What can I help you with?", "How can I help you?"]
+  },
+  {"tag": "bye",
+    "patterns": ["goodbye", "bye", "see you later", "Bye", "have a good day"],
+    "responses": ["Goodbye!", "sad to see you go", "Bye!"]
+  },
+  {"tag": "age",
+    "patterns": ["how old", "how old is florian", "what is your age", "how old are you", "age?"],
+    "responses": ["my owner florian is 21 years old", "21 years"]
+  },
+  {"tag": "name",
+    "patterns": ["goodbye", "bye", "good bye", "Bye", "good bye"],
+    "responses": ["Goodbye!", "Bye!", "Good bye!", "Bye!"]
+  },
+  {"tag": "location",
+    "patterns": ["what's your name?", "who are you", "can you tell me your name", "what should i call you"],
+    "responses": ["You can call me Neural!", "I'm Neural!", "I'm Neural the assistant"]
+  },
+  {"tag": "time",
+    "patterns": ["when are you guys open", "what are your hours", "hours of opening"],
+    "responses": ["9 to 5", "nine to five"]
+  },
+  {"tag": "date",
+    "patterns": ["when are you guys open", "what are your days?", "days of opening"],
+    "responses": ["Monday to Friday", "Mon to Fri!"]
+  },
+  {"tag": "shop",
+    "patterns": ["I'd like to buy somethin?", "what are you offering?", "what do you recommend?", "what are you selling"],
+    "responses": ["Books", "Newspapers", "Boardgames"]}
+
+]}
